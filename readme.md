@@ -22,3 +22,18 @@ cf app-info --csv
 ```sh
 cf app-info manifests
 ```
+
+### Command to set the org to ds
+```sh
+cf target -o ds
+
+```
+### Command to list the services in the org
+```sh
+cf marketplace
+```
+
+### Command to see more details on offerings
+```sh
+cf marketplace -e SERVICE_OFFERING
+```
